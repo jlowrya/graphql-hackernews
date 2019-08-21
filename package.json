@@ -1,0 +1,11 @@
+{
+  "name": "graphql-hackernews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jlowrya/graphql-hackernews.git",
+  "author": "James Lowry <jl@balkerne.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.2"
+  }
+}
