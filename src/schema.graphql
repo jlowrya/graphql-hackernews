@@ -3,6 +3,11 @@ type Query {
   feed: [Link!]!
 }
 
+type Query {
+  # Fetch a single link by its `id`
+  link(id: ID!): Link
+}
+
 
 type Mutation {
   post(url: String!, description: String!): Link!
